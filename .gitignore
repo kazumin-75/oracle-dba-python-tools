@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# 実データを誤ってコミットしない / Never commit real data
+*.trc
+*.trm
+alert*.log
+awr*.html
+awr*.txt
+*.dmp
+*.xlsx
+.env
+data/real/
